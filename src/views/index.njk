@@ -1,0 +1,11 @@
+{% extends "_layout/layout.njk" %}
+
+{% block body %}
+  <div class="wrapper">
+    <form method="POST" action="/check">
+      <label for="age">How old are you?</label>
+      <input type="number" min="0" max="999" name="age"/>
+      <input type="submit" value="Check!" />
+    </form>
+  </div>
+{% endblock %}

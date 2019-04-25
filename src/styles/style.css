@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  background-color: #424766;
+  font-family: "Anton", sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  color: white;
+  height: 100%;
+}
+
+.wrapper > * {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+form > * {
+  margin: 30px;
+}
+
+form label {
+  font-size: 64px;
+}
+
+form input {
+  width: 20%;
+  font-size: 64px;
+}
+
+form input[type="submit"] {
+  background-color: #bfaaa3;
+  border: none;
+  border-radius: 25px;
+}
+form input[type="number"] {
+  border: solid rgba(0, 0, 0, 0);
+  border-radius: 25px;
+}
+form input[type="number"]:focus {
+  outline: 0;
+  border: #d2ffb3 solid;
+  transition: 0.5s;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(124, 110, 106);
+  transition: 0.5s;
+}
+
+form input[type="submit"]:active:focus,
+form input[type="submit"]:focus {
+  outline: 0;
+}
+
+form input[type="number"]:focus {
+  border: 1 solid rgb(139, 139, 214);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-size: 54px;
+  margin: 20px;
+}
+
+a {
+  color: black;
+  font-size: 44px;
+}
